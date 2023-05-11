@@ -1,0 +1,63 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  left: 0px;
+  top: 54px;
+  bottom: 0px;
+  width: 73px;
+}
+
+.home-button{
+  background-color: white;
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.sidebar img {
+  height: 24px;
+}
+
+.explore-button,
+.subs-button,
+.originals-button,
+.music-button,
+.library-button
+ {
+  background-color: white;
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.home-button:hover,
+.explore-button:hover,
+.subs-button:hover,
+.originals-button:hover,
+.music-button:hover,
+.library-button:hover {
+  background-color: rgb(232, 232, 232);
+}
+
+.home-button:active,
+.explore-button:active,
+.subs-button:active,
+.originals-button:active,
+.music-button:active,
+.library-button:active,
+.menu-button:active,
+.search-button:active,
+.voice-button:active,
+.upload-button:active,
+.notification-button:active {
+  background-color: rgb(213, 213, 213);
+}
+
+.sidebar p {
+  font-size: 10px;
+  font-family: Roboto,Arial;
+}
